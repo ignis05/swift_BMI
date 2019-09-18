@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAE01C45233286BC00D076E7 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE01C44233286BC00D076E7 /* ViewController2.swift */; };
 		AB33097F23311049007C8988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33097E23311049007C8988 /* AppDelegate.swift */; };
 		AB33098123311049007C8988 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33098023311049007C8988 /* ViewController.swift */; };
 		AB33098423311049007C8988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB33098223311049007C8988 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AAE01C44233286BC00D076E7 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		AB33097B23311049007C8988 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB33097E23311049007C8988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB33098023311049007C8988 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				AB33097E23311049007C8988 /* AppDelegate.swift */,
 				AB33098023311049007C8988 /* ViewController.swift */,
 				AB33098223311049007C8988 /* Main.storyboard */,
+				AAE01C44233286BC00D076E7 /* ViewController2.swift */,
 				AB3309852331104A007C8988 /* Assets.xcassets */,
 				AB3309872331104A007C8988 /* LaunchScreen.storyboard */,
 				AB33098A2331104A007C8988 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				AB33098123311049007C8988 /* ViewController.swift in Sources */,
 				AB33097F23311049007C8988 /* AppDelegate.swift in Sources */,
+				AAE01C45233286BC00D076E7 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

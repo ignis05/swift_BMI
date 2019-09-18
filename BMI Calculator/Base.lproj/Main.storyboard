@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="-1010" y="594"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="YRK-uG-2no">
             <objects>
-                <viewController id="9VK-dC-sYQ" sceneMemberID="viewController">
+                <viewController id="9VK-dC-sYQ" customClass="ViewController2" customModule="BMI_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g9J-7l-uhd">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,8 +77,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wzrost (w kg)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERy-Dn-nf9">
-                                <rect key="frame" x="280.5" y="415.5" width="107" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wzrost (w cm)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERy-Dn-nf9">
+                                <rect key="frame" x="278" y="415.5" width="112" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -90,6 +90,9 @@
                                 <state key="normal" title="Policz">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="button:" destination="9VK-dC-sYQ" eventType="touchUpInside" id="Uam-YO-hWg"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZMM-WB-pkD">
                                 <rect key="frame" x="421.5" y="411.5" width="25" height="30"/>
@@ -127,6 +130,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jXW-Kt-PW0"/>
                     </view>
+                    <connections>
+                        <outlet property="output" destination="RBt-oP-qkZ" id="vOY-uf-Sit"/>
+                        <outlet property="waga" destination="kIM-vp-d6b" id="nrD-88-k0f"/>
+                        <outletCollection property="wzrost" destination="ZMM-WB-pkD" collectionClass="NSMutableArray" id="dVo-w5-9JS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FGk-0D-mtQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
