@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Policz swoje BMI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5g-ba-H7y">
-                                <rect key="frame" x="193.5" y="171" width="381" height="65"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Policz swoje 🅱️MI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5g-ba-H7y">
+                                <rect key="frame" x="181.5" y="171" width="405.5" height="65"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="54"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -70,13 +70,67 @@
                     <view key="view" contentMode="scaleToFill" id="g9J-7l-uhd">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waga (w kg)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3L-8H-3r2">
+                                <rect key="frame" x="286" y="364.5" width="96" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wzrost (w kg)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERy-Dn-nf9">
+                                <rect key="frame" x="280.5" y="415.5" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZZ-F1-dR1">
+                                <rect key="frame" x="355.5" y="466.5" width="57" height="39"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Policz">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZMM-WB-pkD">
+                                <rect key="frame" x="421.5" y="411.5" width="25" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kIM-vp-d6b">
+                                <rect key="frame" x="421.5" y="361.5" width="25" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twoje BMI to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBt-oP-qkZ">
+                                <rect key="frame" x="298" y="555.5" width="172.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ERy-Dn-nf9" firstAttribute="top" secondItem="F3L-8H-3r2" secondAttribute="bottom" constant="30" id="2rF-S3-eVL"/>
+                            <constraint firstItem="ZMM-WB-pkD" firstAttribute="top" secondItem="kIM-vp-d6b" secondAttribute="bottom" constant="20" id="IGF-hP-Sso"/>
+                            <constraint firstItem="F3L-8H-3r2" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" constant="-50" id="JcN-p8-qqj"/>
+                            <constraint firstItem="ERy-Dn-nf9" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" constant="-50" id="Jx8-Lt-1f9"/>
+                            <constraint firstItem="ZMM-WB-pkD" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" constant="50" id="Msp-tr-Y6O"/>
+                            <constraint firstItem="kIM-vp-d6b" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" constant="50" id="Qei-WJ-0sY"/>
+                            <constraint firstItem="RBt-oP-qkZ" firstAttribute="top" secondItem="KZZ-F1-dR1" secondAttribute="bottom" constant="50" id="Xbh-Lh-SuA"/>
+                            <constraint firstItem="KZZ-F1-dR1" firstAttribute="top" secondItem="ERy-Dn-nf9" secondAttribute="bottom" constant="30" id="YdU-tL-2IH"/>
+                            <constraint firstItem="RBt-oP-qkZ" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" id="jM3-bc-xid"/>
+                            <constraint firstItem="KZZ-F1-dR1" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" id="nIn-VH-Hw6"/>
+                            <constraint firstItem="KZZ-F1-dR1" firstAttribute="top" secondItem="ZMM-WB-pkD" secondAttribute="bottom" constant="25" id="yYY-US-783"/>
+                            <constraint firstItem="KZZ-F1-dR1" firstAttribute="centerY" secondItem="g9J-7l-uhd" secondAttribute="centerY" constant="-26" id="ycn-rp-WcB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jXW-Kt-PW0"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FGk-0D-mtQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="307" y="594"/>
+            <point key="canvasLocation" x="306.25" y="593.5546875"/>
         </scene>
     </scenes>
     <resources>
