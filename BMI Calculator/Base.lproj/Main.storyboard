@@ -133,7 +133,7 @@
                     <connections>
                         <outlet property="output" destination="RBt-oP-qkZ" id="vOY-uf-Sit"/>
                         <outlet property="waga" destination="kIM-vp-d6b" id="nrD-88-k0f"/>
-                        <outletCollection property="wzrost" destination="ZMM-WB-pkD" collectionClass="NSMutableArray" id="dVo-w5-9JS"/>
+                        <outlet property="wzrost" destination="ZMM-WB-pkD" id="9vA-yS-k6p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FGk-0D-mtQ" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -17,11 +17,14 @@ class ViewController2: UIViewController {
     }
     
     @IBOutlet weak var waga: UITextField!
-    @IBOutlet var wzrost: [UITextField]!
+    @IBOutlet weak var wzrost: UITextField!
     @IBOutlet weak var output: UILabel!
     
     @IBAction func button(_ sender: UIButton) {
-        
+        let f_waga = Float(waga.text!) ?? 1
+        let f_wzrost = Float(wzrost.text!) ?? 1
+        let BMI = (f_waga / ((f_wzrost/100) * (f_wzrost/100)))
+        output.text = String(BMI)
     }
     
     /*
