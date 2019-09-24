@@ -126,10 +126,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8o3-Kd-7nk">
+                                <rect key="frame" x="264" y="542" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="U8T-vY-Zr6"/>
+                                    <constraint firstAttribute="height" constant="128" id="bb6-N1-7H2"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ERy-Dn-nf9" firstAttribute="top" secondItem="F3L-8H-3r2" secondAttribute="bottom" constant="30" id="2rF-S3-eVL"/>
+                            <constraint firstItem="8o3-Kd-7nk" firstAttribute="top" secondItem="RBt-oP-qkZ" secondAttribute="bottom" constant="50" id="6Ko-VQ-rnx"/>
                             <constraint firstItem="ZMM-WB-pkD" firstAttribute="top" secondItem="kIM-vp-d6b" secondAttribute="bottom" constant="20" id="IGF-hP-Sso"/>
                             <constraint firstItem="F3L-8H-3r2" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" constant="-50" id="JcN-p8-qqj"/>
                             <constraint firstItem="ERy-Dn-nf9" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" constant="-50" id="Jx8-Lt-1f9"/>
@@ -137,6 +145,7 @@
                             <constraint firstItem="kIM-vp-d6b" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" constant="80" id="Qei-WJ-0sY"/>
                             <constraint firstItem="RBt-oP-qkZ" firstAttribute="top" secondItem="KZZ-F1-dR1" secondAttribute="bottom" constant="50" id="Xbh-Lh-SuA"/>
                             <constraint firstItem="KZZ-F1-dR1" firstAttribute="top" secondItem="ERy-Dn-nf9" secondAttribute="bottom" constant="30" id="YdU-tL-2IH"/>
+                            <constraint firstItem="8o3-Kd-7nk" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" id="b9p-p6-554"/>
                             <constraint firstItem="RBt-oP-qkZ" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" id="jM3-bc-xid"/>
                             <constraint firstItem="KZZ-F1-dR1" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" id="nIn-VH-Hw6"/>
                             <constraint firstItem="KZZ-F1-dR1" firstAttribute="top" secondItem="ZMM-WB-pkD" secondAttribute="bottom" constant="25" id="yYY-US-783"/>
@@ -145,6 +154,7 @@
                         <viewLayoutGuide key="safeArea" id="jXW-Kt-PW0"/>
                     </view>
                     <connections>
+                        <outlet property="image" destination="8o3-Kd-7nk" id="Dwk-ot-o3W"/>
                         <outlet property="output" destination="RBt-oP-qkZ" id="vOY-uf-Sit"/>
                         <outlet property="waga" destination="kIM-vp-d6b" id="nrD-88-k0f"/>
                         <outlet property="wzrost" destination="ZMM-WB-pkD" id="9vA-yS-k6p"/>

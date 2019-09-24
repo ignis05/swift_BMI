@@ -19,12 +19,21 @@ class ViewController2: UIViewController {
     @IBOutlet weak var waga: UITextField!
     @IBOutlet weak var wzrost: UITextField!
     @IBOutlet weak var output: UILabel!
+    @IBOutlet weak var image: UIImageView!
     
     @IBAction func button(_ sender: UIButton) {
         let f_waga = Float(waga.text!) ?? 1
         let f_wzrost = Float(wzrost.text!) ?? 1
         let BMI = (f_waga / ((f_wzrost/100) * (f_wzrost/100)))
-        output.text = String(BMI)
+        output.text = "Twoje BMI to: " + String(Double(BMI))
+        var imageName = "Happy"
+        if(BMI > 24.9 || BMI < 18.5){
+            imageName = "Neutral"
+        }
+        if(BMI > 35 || BMI < 13){
+            imageName = "Sad"
+        }
+        image.image = UIImage(named: imageName)
     }
     
     /*
