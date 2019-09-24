@@ -72,19 +72,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waga (w kg)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3L-8H-3r2">
-                                <rect key="frame" x="286" y="364.5" width="96" height="21"/>
+                                <rect key="frame" x="286" y="264.5" width="96" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wzrost (w cm)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERy-Dn-nf9">
-                                <rect key="frame" x="278" y="415.5" width="112" height="21"/>
+                                <rect key="frame" x="278" y="315.5" width="112" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZZ-F1-dR1">
-                                <rect key="frame" x="355.5" y="466.5" width="57" height="39"/>
+                                <rect key="frame" x="355.5" y="366.5" width="57" height="39"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Policz">
@@ -95,19 +95,19 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZMM-WB-pkD">
-                                <rect key="frame" x="421.5" y="411.5" width="25" height="30"/>
+                                <rect key="frame" x="421.5" y="311.5" width="25" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kIM-vp-d6b">
-                                <rect key="frame" x="421.5" y="361.5" width="25" height="30"/>
+                                <rect key="frame" x="421.5" y="261.5" width="25" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twoje BMI to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBt-oP-qkZ">
-                                <rect key="frame" x="298" y="555.5" width="172.5" height="36"/>
+                                <rect key="frame" x="298" y="455.5" width="172.5" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -126,7 +126,7 @@
                             <constraint firstItem="RBt-oP-qkZ" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" id="jM3-bc-xid"/>
                             <constraint firstItem="KZZ-F1-dR1" firstAttribute="centerX" secondItem="g9J-7l-uhd" secondAttribute="centerX" id="nIn-VH-Hw6"/>
                             <constraint firstItem="KZZ-F1-dR1" firstAttribute="top" secondItem="ZMM-WB-pkD" secondAttribute="bottom" constant="25" id="yYY-US-783"/>
-                            <constraint firstItem="KZZ-F1-dR1" firstAttribute="centerY" secondItem="g9J-7l-uhd" secondAttribute="centerY" constant="-26" id="ycn-rp-WcB"/>
+                            <constraint firstItem="KZZ-F1-dR1" firstAttribute="centerY" secondItem="g9J-7l-uhd" secondAttribute="centerY" constant="-126" id="ycn-rp-WcB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jXW-Kt-PW0"/>
                     </view>
